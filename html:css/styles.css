@@ -1,3 +1,5 @@
+
+/* background color */
 body{
 	background: rgba(212,228,239,1);
 	background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
@@ -9,7 +11,9 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
 }
 
-ul {
+/* navagation bar */
+
+#centermenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,11 +21,11 @@ ul {
     background-color: #333;
 }
 
-li {
+#centermenu li {
     float: left;
 }
 
-li a {
+#centermenu li a {
     display: block;
     color: white;
     text-align: center;
@@ -30,7 +34,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#centermenu li a:hover {
     background-color: #111;
 }
 
@@ -38,21 +42,29 @@ h1{
 	font-family: 'Oswald', sans-serif;
 	color: black;
 	font-size: 50px;
-	margin-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1;
 	text-align: center;
 }
 
 h2{
 	font-family: 'Oswald', sans-serif;
-	color: darkgrey;
+	color: gray;
 	font-size: 20px;
+	margin: 1px;
+	padding: 0px;
+	line-height: 1;
 	text-align: center;
 }
 
 .infoStuff{
 	font-family: 'Oswald', sans-serif;
-	color: darkgrey;
+	color: gray;
 	font-size: 14px;
+	margin: 2px;
+	padding: 0px;
+	line-height: 1;
 	text-align: center;
 }
 
@@ -65,3 +77,18 @@ h2{
 	width: 200px;
 	border-radius: 50%;
 }
+
+.sidebar{
+	float: left;
+	width: 30%;
+}
+
+.information{
+	float: right:
+	width 70%;
+}
+
+.wrapper{
+ 	overflow: hidden;
+}
+
