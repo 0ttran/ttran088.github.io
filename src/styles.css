@@ -79,6 +79,12 @@ h2{
 	height:125px;
 }
 
+/* small icon imgs */
+.smallimg{
+	width:20px;
+	height:20px;
+}
+
 /* Gradient for education section*/
 #divgrad div[class="edu"]{
 	width:200%;
