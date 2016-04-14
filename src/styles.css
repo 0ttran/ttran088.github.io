@@ -1,6 +1,6 @@
 
 /* background color */
-body{
+body{/*
 	background: rgba(212,228,239,1);
 	background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
@@ -9,6 +9,8 @@ body{
 	background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
 	background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+	*/
+
 }
 
 /* navagation bar */
@@ -39,7 +41,7 @@ body{
 }
 
 h1{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Gadget', sans-serif;
 	color: black;
 	font-size: 50px;
 	margin: 0px;
@@ -49,8 +51,8 @@ h1{
 }
 
 h2{
-	font-family: 'Oswald', sans-serif;
-	color: gray;
+	font-family: 'Gadget', sans-serif;
+	color: black;
 	font-size: 20px;
 	margin: 1px;
 	padding: 0px;
@@ -58,9 +60,64 @@ h2{
 	text-align: center;
 }
 
+#left{
+	font-family: "Gadget", sans-serif;
+	color: white;
+	font-size: 40px;
+	width: 200px;
+	float:left;
+	margin-left: 400px;
+	/*
+	text-align: center;
+	*/
+}
+
+#right{
+	font-family: "Gadget", sans-serif;
+	color: white;
+	font-size: 20px;
+	margin-left: 700px;
+}
+
+#clear{
+	clear: both;
+}
+
+/* github picture link */
+#gitimg img[src="./pictures/github_icon.png"]{
+	width:125px;
+	height:125px;
+}
+
+/* mail picture link */
+#mailimg img[src="./pictures/mail_icon.png"]{
+	width:125px;
+	height:125px;
+}
+
+/* Gradient for education section*/
+#divgrad div[class="edu"]{
+	width:200%;
+	height:500px;
+}
+
+.edu{
+
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 9%, rgba(89,89,89,1) 12%, rgba(71,71,71,1) 14%, rgba(17,17,17,1) 21%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(9%, rgba(102,102,102,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(14%, rgba(71,71,71,1)), color-stop(21%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 9%, rgba(89,89,89,1) 12%, rgba(71,71,71,1) 14%, rgba(17,17,17,1) 21%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 9%, rgba(89,89,89,1) 12%, rgba(71,71,71,1) 14%, rgba(17,17,17,1) 21%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 9%, rgba(89,89,89,1) 12%, rgba(71,71,71,1) 14%, rgba(17,17,17,1) 21%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 9%, rgba(89,89,89,1) 12%, rgba(71,71,71,1) 14%, rgba(17,17,17,1) 21%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+
+}
+
+/* information text underneath profile pic */
 .infoStuff{
-	font-family: 'Oswald', sans-serif;
-	color: gray;
+	font-family: 'Gadget', sans-serif;
+	color: black;
 	font-size: 14px;
 	margin: 2px;
 	padding: 0px;
@@ -68,6 +125,7 @@ h2{
 	text-align: center;
 }
 
+/* make the profile picture a circle */
 .img-circle{
 	display: block;
 	margin-top: 1cm;
@@ -78,17 +136,16 @@ h2{
 	border-radius: 50%;
 }
 
-.sidebar{
-	float: left;
-	width: 30%;
+/* github, mail, etc lists */
+.pictureInfo{
+	overflow: auto;
+	text-align: center;
 }
 
-.information{
-	float: right:
-	width 70%;
+.pictureInfo ul li{
+	display: inline-block;
+	text-align: center;
 }
 
-.wrapper{
- 	overflow: hidden;
-}
+
 
